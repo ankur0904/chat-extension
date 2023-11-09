@@ -9,8 +9,6 @@ The Streaming Answer Extension is designed to provide real-time responses to use
 - [pnpm](https://pnpm.io/) 
     > *Recommended: (v8.10.0)*
 - [Git](https://git-scm.com/downloads)
-- [Postman](https://www.postman.com/downloads/)
-- [OpenAssistant/oasst-sft-4-pythia-12b-epoch-3.5](https://huggingface.co/OpenAssistant/oasst-sft-4-pythia-12b-epoch-3.5)
 
 ## Features
 
