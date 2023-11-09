@@ -1,33 +1,48 @@
-This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
+# Chat Browser Extension
 
-## Getting Started
+The Streaming Answer Extension is designed to provide real-time responses to user queries in a streaming manner. This extension enabling users to easily access this valuable feature.
 
-First, run the development server:
+## Features
 
-```bash
-pnpm dev
-# or
-npm run dev
-```
+- **Real-time Streaming Responses:** The extension provides users with real-time responses to their queries, allowing them to see answers as they are generated.
 
-Open your browser and load the appropriate development build. For example, if you are developing for the chrome browser, using manifest v3, use: `build/chrome-mv3-dev`.
+- **Ease of Use:** The extension is user-friendly, with a simple interface that allows users to input queries and receive streaming answers with just a few clicks.
 
-You can start editing the popup by modifying `popup.tsx`. It should auto-update as you make changes. To add an options page, simply add a `options.tsx` file to the root of the project, with a react component default exported. Likewise to add a content page, add a `content.ts` file to the root of the project, importing some module and do some logic, then reload the extension on your browser.
+## Local Installation
 
-For further guidance, [visit our Documentation](https://docs.plasmo.com/)
+1. **Firstly Clone the repository**
 
-## Making production build
+    ```bash
+    git clone https://github.com/ankur0904/chat-extension.git
+    ```
 
-Run the following:
+2. **Install the dependencies**
+    ```bash
+    pnpm install
+    ```
 
-```bash
-pnpm build
-# or
-npm run build
-```
+3. **Run the development server**
+    ```bash
+    pnpm dev
+    ```
 
-This should create a production bundle for your extension, ready to be zipped and published to the stores.
+4. **Load the extension in your browser for testing.**
 
-## Submit to the webstores
+    - **Chrome**
+        1. Open Chrome browser
+        2. Go to `chrome://extensions/`
+        3. Enable `Developer mode` in the top right corner
+        4. Click on `Load unpacked` button in the top left corner
+        5. Select the `build/chrome-mv3-dev` folder in the cloned repository
 
-The easiest way to deploy your Plasmo extension is to use the built-in [bpp](https://bpp.browser.market) GitHub action. Prior to using this action however, make sure to build your extension and upload the first version to the store to establish the basic credentials. Then, simply follow [this setup instruction](https://docs.plasmo.com/framework/workflows/submit) and you should be on your way for automated submission!
+5. **Done 🎉**
+- Now you can use the extension in your browser.
+
+## Usage
+
+1. You can click on the extension icon to open the extension.
+2. You can enter your query in the input box and click on the `Search` button to get the response.
+
+## Contact
+
+Ankur Singh - ankursingh91002@gmail.com
