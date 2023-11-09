@@ -2,6 +2,16 @@
 
 The Streaming Answer Extension is designed to provide real-time responses to user queries in a streaming manner. This extension enabling users to easily access this valuable feature.
 
+## Requirements for Local Installation
+
+- [NodeJS](https://nodejs.org/en/) 
+    > *Recommended: (v18.18.0)*
+- [pnpm](https://pnpm.io/) 
+    > *Recommended: (v8.10.0)*
+- [Git](https://git-scm.com/downloads)
+- [Postman](https://www.postman.com/downloads/)
+- [OpenAssistant/oasst-sft-4-pythia-12b-epoch-3.5](https://huggingface.co/OpenAssistant/oasst-sft-4-pythia-12b-epoch-3.5)
+
 ## Features
 
 - **Real-time Streaming Responses:** The extension provides users with real-time responses to their queries, allowing them to see answers as they are generated.
