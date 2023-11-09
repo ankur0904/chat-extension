@@ -4,11 +4,9 @@ The Streaming Answer Extension is designed to provide real-time responses to use
 
 ## Requirements for Local Installation
 
-- [NodeJS](https://nodejs.org/en/) 
-    > *Recommended: (v18.18.0)*
-- [pnpm](https://pnpm.io/) 
-    > *Recommended: (v8.10.0)*
-- [Git](https://git-scm.com/downloads)
+- [NodeJS](https://nodejs.org/en/) *Recommended: (v18.18.0)*
+- [pnpm](https://pnpm.io/) *Recommended: (v8.10.0)*
+- [Git](https://git-scm.com/downloads) *Version Control*
 
 ## Features
 
